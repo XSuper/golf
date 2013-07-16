@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.golfeven.firstGolf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <com.golfeven.firstGolf.widget.HeadBack
+        android:id="@+id/activity_ballfriend_detail_headback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:htitle="球友"
+        app:progress_visible="true" />
+
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:id="@+id/activity_ballfriend_detail_photo"
+        />
+    <ImageView 
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:id="@+id/activity_ballfriend_detail_face"
+        
+        />
+   
+     
+
+</LinearLayout>
